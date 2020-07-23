@@ -1,0 +1,27 @@
+export default [
+    {
+        path:"/cellsMember",
+        name:"会员中心",
+        component:()=>import("../../components/cells/member.vue")
+    },
+    {
+        path:"/cellsDiscount",
+        name:"我的优惠",
+        component:()=>import("../../components/cells/discount.vue")
+    },
+    {
+        path:"/cellsService",
+        name:"我的优惠",
+        component:()=>import("../../components/cells/service.vue")
+    },
+    {
+        path:"/cellsFcode",
+        name:"我的F码",
+        component:()=>import("../../components/cells/fcode.vue")
+    },
+    {
+        path:"/cellsGiftcode",
+        name:"礼物码兑换",
+        component:()=>import("../../components/cells/giftcode.vue")
+    }
+]
